@@ -5,6 +5,8 @@ Feed multiple links at once via arguments or through files containing the links.
 ***General format***
   
 	mamj -u [links separated by space] -f [filenames separated by space]
+	
+where *u* stands for **URL/s** and *f* for **file/s**.
  
 #### For example
 ***Multiple links + Multiple files***
@@ -54,5 +56,3 @@ Feed multiple links at once via arguments or through files containing the links.
   	https://download.kiwix.org/zim/ted/ted_en_business_2016-06.zim
   	https://download.kiwix.org/zim/gutenberg/gutenberg_ale_all_2018-07.zim
 	
-	
-
