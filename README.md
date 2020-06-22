@@ -1,7 +1,7 @@
 # MAMJ-Downloader
 Feed multiple links at once via arguments or through files containing the links. Downloads are done with FCFS priority.  
 
-### Usage
+## Usage
 ***General format***
   
 	mamj -u [links separated by space] -f [filenames separated by space]
@@ -19,7 +19,7 @@ Feed multiple links at once via arguments or through files containing the links.
  	
  	mamj -f file1.txt
 	
-***Single link + Single file***
+***Multiple links***
  	
  	mamj -u https://releases.ubuntu.com/20.04/ubuntu-20.04-desktop-amd64.iso https://archive.org/download/ElephantsDream/ed_hd_512kb.mp4
 	
@@ -27,16 +27,21 @@ Feed multiple links at once via arguments or through files containing the links.
 	
  	mamj -f file1.txt file2.txt
 	
-***Multiple links + Multiple files (change in the arguments order)***
+***Multiple files + Multiple links (change in the order of arguments)***
  
-	mamj -f file1.txt file2.txt-u https://releases.ubuntu.com/20.04/ubuntu-20.04-desktop-amd64.iso https://archive.org/download/ElephantsDream/ed_hd_512kb.mp4 
+	mamj -f file1.txt file2.txt -u https://releases.ubuntu.com/20.04/ubuntu-20.04-desktop-amd64.iso https://archive.org/download/ElephantsDream/ed_hd_512kb.mp4 
 	
+***Single file + Single link***
+
+	mamj -f file1.txt -u https://releases.ubuntu.com/20.04/ubuntu-20.04-desktop-amd64.iso
 	
+
+
   
   ### ***Text file format***
   
-     link1[newline]
-     link2[newline]
+     Link1[newline]
+     Link2[newline]
      ...
      ...
      [eof]
