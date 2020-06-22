@@ -1,10 +1,10 @@
 # MAMJ-Downloader
-Feed multiple links to download at once via arguments or through files containing the links. Downloads are done with FCFS priority.  
+Feed multiple links at once via arguments or through files containing the links. Downloads are done with FCFS priority.  
 
 ### Usage
 ***General format***
   
-	mamj -u [links separated by space] -f [filenames separated by spaces]
+	mamj -u [links separated by space] -f [filenames separated by space]
  
 #### For example
 ***Multiple links + Multiple files***
